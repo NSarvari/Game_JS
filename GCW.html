@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1> Javascript Puzzle of the Farmer, The Wolf, The Goat, and The Cabbage</h1>
+    <hr>
+    <p>This puzzle involves a farmer who wants to get himself, his wolf, goat, and cabbage across a river. However, the raft that he is using to traverse the river is only able to carry 
+    1 thing at a time and if he leaves either the wolf and the goat or the goat and the cabbage together on either side of the river without the farmer being there, the wolf will devour the 
+    goat and the goat will devour the cabbage respectively.
+    </p>
+    <p>So, it is your job to figure out the correct order of transporting the farmer, his animals, and his cabbage across the river without losing any of them. The buttons are labelled 
+    and when a button labelled with a character/object is pressed, that character/object will be queued up to move from one side of the river to the other. You may only make one move at a 
+    time and after each queuing up one character/object, you click the <i>Cross the river!</i> button to see whether your move resulted in a problem or not. If you are able to get all of them 
+    to the right side of the river, you win! Good luck and have fun! :)
+    </p>
+    <hr>
+    
+    <button onclick="Testing()">Cross the river!</button>
+    <p id="test"></p>
+    
+    <button onclick="myFunctionFarmer()">Farmer</button>
+    <p id="farmer">Farmer is on the left side of the river.</p>
+    
+    <button onclick="myFunctionGoat()">Goat</button>
+    <p id="goat">Goat is on the left side of the river.</p>
+    
+    <button onclick="myFunctionWolf()">Wolf</button>
+    <p id="wolf">Wolf is on the left side of the river.</p>
+    
+    <button onclick="myFunctionCabbage()">Cabbage</button>
+    <p id="cabbage">Cabbage is on the left side of the river.</p></center>
+
+    <script src="GCW.js"></script>
+    
+</body>
+</html>
